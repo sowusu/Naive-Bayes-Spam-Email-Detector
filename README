@@ -1,0 +1,16 @@
+To run ham_spam.py, type below into commandline:
+
+python ham_spam.py
+
+NB: Python binary should point Python 3 binary
+
+To change the learning rate or lambda values for logisitcal regression change below variables in main function:
+learning_eta - learning rate
+reg_lambda array = add or remove lambda values
+
+
+When code is ran, the following will be printed in order:
+1. NB accuracy (ham, spam and combined) with stop words
+2. LR accuracy (ham, spam and combined, for each lambda) with stop words
+3. NB accuracy (ham, spam and combined) WITHOUT stop words
+4. LR accuracy (ham, spam and combined, for each lambda) WITHOUT stop words
